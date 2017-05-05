@@ -21,18 +21,38 @@ $navbar-default-bg: black;
   text-align: center;
 }
 
-.jumbotron {
-  background-image: asset-url('pepe.jpg');
+#homepage {
+  background-image: asset-url('tram-seat4.jpg');
   background-size: cover;
-  height: 400px;
+  height: 500px;
+  padding: 150px;
 }
 
-.jumbotron h1 {
-  color: #fff;
-  text-align: center;
-  margin-bottom: 30px;
-  letter-spacing: -1px;
-  font-weight: bold;
+#maintitle {
+  font-size: 80px;
+  letter-spacing: 4px;
+  transform : scale(1,1.2);
+  font-family: 'Abril Fatface', serif;
+  color: white;
+}
+
+#aboutpage {
+  background-image: asset-url('forest.jpg');
+  background-size: cover;
+  height: 500px;
+  padding: 130px;
+}
+
+#abouttitle {
+  font-size: 80px;
+  letter-spacing: 4px;
+  transform : scale(1,1.2);
+  font-family: 'Abril Fatface', serif;
+  color: white;
+}
+
+#aboutp {
+  color: white;
 }
 
 .btn-xlarge {
